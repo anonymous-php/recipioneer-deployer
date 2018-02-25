@@ -1,0 +1,32 @@
+{
+    "name": "anonymous-php/recipioneer-deployer",
+    "type": "library",
+    "description": "",
+    "keywords": [
+        "recipioneer",
+        "deployer",
+        "deploy"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anonymous PHP Developer",
+            "email": "anonym.php@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Anonymous\\Recipioneer\\Deployer\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:anonymous-php/recipioneer.git"
+        }
+    ],
+    "require": {
+        "anonymous-php/recipioneer": "dev-master",
+        "symfony/yaml": "^4.0"
+    }
+}
